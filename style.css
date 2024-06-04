@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.body-container {
+    height: 100vh;
+    width: 75vmin;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.log-in-box {
+    height: 95vmin;
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-box {
+    height: 60vmin;
+    width: 50vmin;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    height: 6vmin;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-box {
+    height: 15vmin;
+    width: 45vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input:hover {
+    border-color: #444444af;
+}
+
+input {
+    height: 5vmin;
+    width: 40vmin;
+    outline: none;
+    background-color: #f0f0f0;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    padding-left: 2vmin;
+    margin: 5px;
+}
+
+input::placeholder {
+    font-size: 1.9vmin;
+    padding: 2vmin 2vmin 2vmin 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button-box {
+    height: 6vmin;
+    width: 45vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    height: 5.5vmin;
+    width: 40vmin;
+    font-size: 2.5vmin;
+    border: none;
+    border-radius: 8px;
+    background-color: #0094f6;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.or {
+    height: 3vmin;
+    width: 45vmin;
+    font-size: 2.5vmin;
+    color: #c4c4c4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.line {
+    height: 1px;
+    width: 20vmin;
+    display: inline-block;
+    background-color: #c4c4c4;
+}
+
+.facebook-log-in-box {
+    height: 3vmin;
+    width: 40vmin;
+
+}
+
+.facebook-log-in-box,
+.face {
+    font-size: 2vmin;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 500;
+    color: #3B5998;
+}
+
+.fa {
+    padding-left: 1.5vmin;
+    padding-right: 0.5vmin;
+    background: #3B5998;
+    color: white;
+    font-weight: 900;
+}
+
+.forgote-password {
+    height: 3vmin;
+    width: 40vmin;
+
+}
+
+.forgote-password,
+.forgote {
+    font-size: 2vmin;
+    font-family: 'Lucida Sans Regular';
+    color: #00376b;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sign-up {
+    height: 10vmin;
+    width: 50vmin;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5vmin;
+
+}
+
+.signup {
+    color: #0095f6;
+}
+
+.get-app {
+    height: 12vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.get {
+    height: 5vmin;
+    width: 50vmin;
+    font-size: 3vmin;
+}
+
+img {
+    height: 7.5vmin;
+    width: 23vmin;
+
+}
+
+.img {
+    border-radius: 3px;
+
+}
+
+footer {
+    display: flex;
+
+}
+
+.footer-section {
+    font-size: 15px;
+    color: #636468;
+
+}
+
+.other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.a {
+    padding: 1vmin;
+}
+
+select {
+    outline: none;
+    border: none;
+}
+
+.options {
+    font-size: 12px;
+    color: #636468;
+}
+
+.language {
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:1280px) {
+    body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .body-container {
+        height: 100vh;
+        width: 95vmin;
+        padding-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .log-in-box {
+        height: 160vmin;
+        width: 100vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .top-box {
+        height: 120vmin;
+        width: 90vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .title {
+        height: 20vmin;
+        width: 50vmin;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .insta-icon {
+        height: 20vmin;
+        width: 50vmin;
+
+    }
+
+    .input-box {
+        height: 32vmin;
+        width: 90vmin;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .input:hover {
+        border-color: #444444af;
+    }
+
+    input {
+        height: 14vmin;
+        width: 80vmin;
+        font-size: 4vmin;
+        outline: none;
+        background-color: #f0f0f0;
+        border: 1px solid #dfdfdf;
+
+    }
+
+    input::placeholder {
+        font-size: 3.7vmin;
+        font-weight: 900;
+        padding: 2vmin 2vmin 2vmin 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .button-box {
+        height: 15vmin;
+        width: 90vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .button {
+        height: 10vmin;
+        width: 80vmin;
+        background-color: #0094f6;
+        font-size: 4vmin;
+        opacity: 0.7;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        border-radius: 2vmin;
+    }
+
+    .button:hover {
+        cursor: pointer;
+    }
+
+    .or {
+        height: 5vmin;
+        width: 70vmin;
+        font-size: 5vmin;
+        color: #c4c4c4;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+
+
+    }
+
+    .line {
+        height: 2px;
+        width: 30vmin;
+        display: inline-block;
+        background-color: #c4c4c4;
+    }
+
+    .facebook-log-in-box {
+        height: 6.5vmin;
+        width: 70vmin;
+
+    }
+
+    .facebook-log-in-box,
+    .face {
+        font-size: 4vmin;
+        font-family: 'Lucida Sans Unicode';
+        font-weight: 600;
+        color: #3B5998;
+    }
+
+    .fa {
+        background: #3B5998;
+        color: white;
+        font-weight: 900;
+    }
+
+    .forgote-password {
+        height: 5vmin;
+        width: 70vmin;
+
+    }
+
+    .forgote-password,
+    .forgote {
+        font-size: 3.5vmin;
+        font-family: 'Lucida Sans Regular';
+        color: #00376b;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .sign-up {
+        height: 15vmin;
+        width: 90vmin;
+        font-size: 4vmin;
+        border: 1px solid #dfdfdf;
+
+    }
+
+    .signup {
+        color: #0095f6;
+    }
+
+    .get-app {
+        height: 15vmin;
+        width: 65vmin;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .get {
+        object-fit: cover;
+        font-size: 4vmin;
+    }
+
+    img {
+        height: 10vmin;
+        width: 26vmin;
+    }
+
+    .img {
+        border-radius: 4px;
+
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .footer-section {
+        font-size: 4vmin;
+        color: #636468;
+
+    }
+
+    .other {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .a {
+        padding: 1vmin;
+    }
+
+    select {
+        outline: none;
+        border: none;
+    }
+
+    .options {
+        font-size: 4vmin;
+        color: #636468;
+    }
+
+    .language {
+        height: 6vmin;
+        width: 90vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2vmin;
+    }
+
+    .meta {
+        padding: 3vmin;
+    }
+}
